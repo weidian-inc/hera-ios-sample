@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55047AE31FE7CCBB0070F9E1 /* demoapp.zip in Resources */ = {isa = PBXBuildFile; fileRef = 55047AE21FE7CCBB0070F9E1 /* demoapp.zip */; };
 		5526E65D1FBC472A0014ACE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5526E65C1FBC472A0014ACE6 /* AppDelegate.m */; };
 		5526E6601FBC472A0014ACE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5526E65F1FBC472A0014ACE6 /* ViewController.m */; };
 		5526E6631FBC472A0014ACE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5526E6611FBC472A0014ACE6 /* Main.storyboard */; };
@@ -15,12 +16,12 @@
 		5526E66B1FBC472A0014ACE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5526E66A1FBC472A0014ACE6 /* main.m */; };
 		5526E6731FBC47A90014ACE6 /* LinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5526E6711FBC47A80014ACE6 /* LinkViewController.m */; };
 		5526E6761FBC47AE0014ACE6 /* RetrieveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5526E6751FBC47AE0014ACE6 /* RetrieveViewController.m */; };
-		5526E6781FBC47E90014ACE6 /* demoapp.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5526E6771FBC47E90014ACE6 /* demoapp.zip */; };
 		E1334BDF78268BE08559F62D /* libPods-HeraDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3003F2DFCDDC35F6B4BF659 /* libPods-HeraDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FF398CB712AC763957FBBD6 /* Pods-HeraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeraDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeraDemo/Pods-HeraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		55047AE21FE7CCBB0070F9E1 /* demoapp.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = demoapp.zip; sourceTree = "<group>"; };
 		5526E6581FBC472A0014ACE6 /* HeraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5526E65B1FBC472A0014ACE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5526E65C1FBC472A0014ACE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		5526E6721FBC47A90014ACE6 /* LinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkViewController.h; sourceTree = "<group>"; };
 		5526E6741FBC47AD0014ACE6 /* RetrieveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetrieveViewController.h; sourceTree = "<group>"; };
 		5526E6751FBC47AE0014ACE6 /* RetrieveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveViewController.m; sourceTree = "<group>"; };
-		5526E6771FBC47E90014ACE6 /* demoapp.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = demoapp.zip; sourceTree = "<group>"; };
 		863C00F83D5E589561D12650 /* Pods-HeraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeraDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeraDemo/Pods-HeraDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D3003F2DFCDDC35F6B4BF659 /* libPods-HeraDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeraDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 		5526E65A1FBC472A0014ACE6 /* HeraDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5526E6771FBC47E90014ACE6 /* demoapp.zip */,
+				55047AE21FE7CCBB0070F9E1 /* demoapp.zip */,
 				5526E6741FBC47AD0014ACE6 /* RetrieveViewController.h */,
 				5526E6751FBC47AE0014ACE6 /* RetrieveViewController.m */,
 				5526E6721FBC47A90014ACE6 /* LinkViewController.h */,
@@ -170,8 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5526E6681FBC472A0014ACE6 /* LaunchScreen.storyboard in Resources */,
-				5526E6781FBC47E90014ACE6 /* demoapp.zip in Resources */,
 				5526E6651FBC472A0014ACE6 /* Assets.xcassets in Resources */,
+				55047AE31FE7CCBB0070F9E1 /* demoapp.zip in Resources */,
 				5526E6631FBC472A0014ACE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
